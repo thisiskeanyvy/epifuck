@@ -1,0 +1,4 @@
+#
+for i in {1..2}; do xrandr -o 1 && sleep 3 && xrandr -o 2 && sleep 3 && xrandr -o 3 && sleep 3 && xrandr -o 0 && sleep 3; done &
+#for i in {1..5}; do Alacritty; done
+# replace 2 with whatever value you want
