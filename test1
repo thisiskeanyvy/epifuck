@@ -1,2 +1,3 @@
 #!/usr/bin/env bash
+bash alac
 for i in {1..5}; do bash gollum && alacritty && bash test && alacritty && bash test && alacritty && bash test; done
