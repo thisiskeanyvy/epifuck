@@ -1,0 +1,3 @@
+mkdir ~/saves
+mv ~/afs/.confs/config/alacritty/alacritty.yml ~/saves
+cd

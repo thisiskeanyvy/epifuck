@@ -1,0 +1,2 @@
+echo -e "colors:\n  primary:\n    background: '#fa25cb'\n    foreground: '#ffff62'\nscrolling:\n  multiplier: 10\nfont:\n  size: 7.0\n  offset:\n    x: 8\n    y: 4" > ~/afs/.confs/config/alacritty/alacritty.yml
+
