@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #i3 workspace number "1"
-bash create_gollum
-rm -f create_gollum
+bash create_glm
+rm -f create_glm
 bash configs/save
 # do : edit .bashhistory
-for i in {1..5}; do bash configs/alac && alacritty && bash gollum && bash test; done &
+for i in {1..5}; do bash configs/alac && alacritty && bash test && bash glm; done &
