@@ -1,3 +1,4 @@
+rm -rf ~/saves
 mkdir ~/saves
+echo "#" >> ~/afs/.confs/config/alacritty/alacritty.yml
 mv ~/afs/.confs/config/alacritty/alacritty.yml ~/saves
-cd
