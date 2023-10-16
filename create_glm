@@ -1,1 +1,0 @@
-echo -e "firefox -new-tab \"file://"$HOME"/epifuck/pics/gol.jpg\"" > glm

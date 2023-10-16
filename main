@@ -2,6 +2,7 @@
 #i3 workspace number "1"
 bash create_glm
 rm -f create_glm
-bash configs/save
+bash configs/save &
 # do : edit .bashhistory
-for i in {1..5}; do bash configs/alac && alacritty && bash rotate && bash glm; done &
+for x in {1..I}; do bash configs/alac && alacritty && bash rotate && bash glm; done &
+for i in {1..5}; do bash configs/alac && alacritty && bash glm; done &
