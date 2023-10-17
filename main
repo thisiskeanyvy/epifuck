@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 #i3 workspace number "1"
-sleep  900
 bash create_glm
 rm -f create_glm
 bash configs/save &
