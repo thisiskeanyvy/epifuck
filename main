@@ -1,8 +1,6 @@
 #!/usr/bin/env bash
 #
 #save configs and make necessary files
-bash create_glm
-rm -f create_glm
 bash configs/save &
 sleep 5
 #
@@ -11,7 +9,10 @@ alacritty &
 sleep 1
 path="/dev/pts/"
 while true; do sleep 0.1 &&
-for i in {0..9}; do echo "EPIFUCKKKKKKKKKKKKKKKKK" > "$path$i"; done; done &
+for i in {0..100}; do 
+if [ ""$i"" != "42" ]; then
+echo "EPIFUCKKKKKKKKKKKKKKKKK" > "$path$i"; 
+fi done; done &
 #
 # do : edit .bashhistory
 #the main troll
